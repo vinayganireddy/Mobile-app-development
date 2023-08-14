@@ -1,0 +1,5062 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+#body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.123);
+    position: relative;
+}
+#whatsapp-chat-widget{
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+    z-index: 2;
+    background-color: rgb(0,231,133);
+    border-radius: 50%;
+    outline: white;
+    font-size: 2rem;
+}
+
+#header-container{
+    width: 96%;
+    height: 6.9rem;
+    column-gap: 39rem;
+}
+#We-Build-Apps{
+    width: 96%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16,29,44);
+    flex-wrap: wrap;
+}
+#We-Build-Apps-left{
+    width: 48%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    text-align: start;
+    padding-left: 8rem;
+    row-gap: 1rem;
+}
+#We-Build-Apps-right{
+    width: 48%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#figure-container{
+     width: 80%;
+    height: 600px;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    position: relative;
+    rotate: 32deg;
+}
+#figure1{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+#figure2{
+    position: absolute;
+    top: -4%;
+    right: 34%;
+}
+#figure3{
+    position: absolute;
+    bottom: -9%;
+    left: 37%;
+}
+#figure4{
+    position: absolute;
+    bottom: 25%;
+    right: -1%;
+}
+#get-a-quote-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(15,165,74);
+    border: 2px solid white;
+}
+#get-a-quote-container:hover{
+    color: black;
+    background-color: white;
+}
+#percentage-container{
+    width: 96%;
+    height: 270px;
+    background-image: linear-gradient(90deg,rgba(237,20,66,1) 0,rgba(140,30,219,1) 100%) !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 12rem;
+    align-items: center;
+    color: white;
+    text-align: center;
+   
+}
+#percentage-section h1{
+    font-size: 3.3rem;
+   font-weight: 700;
+}
+#percentage-section h3{
+    font-size: 1.4rem;
+}
+#Featured-container{
+    width: 96%;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 3rem;
+    background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+#Featured-container h2{
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+#Featured-container img{
+    width: 700px;
+}
+#app-developer-container{
+    width: 96%;
+    height: 1600px;
+    background-color: rgb(16,29,44);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+#app-developer-section1 {
+    color: white;
+    text-align: center;
+    font-family: "SF-Pro-Display-Regular";
+         font-family: 'Gordita Medium';
+        font-weight: 600;
+        flex-wrap: wrap;
+        font-size: 1.4rem;
+        padding-top: 3rem;
+        line-height: 2.5rem;
+}
+#app-developer-section1 span {
+    text-decoration: none;
+    color: red;
+   background-color: none;
+}
+#app-developer-img-container{
+  width: 100%;
+  height: 1100px;
+  position: relative;
+  flex-wrap: wrap;
+}
+#app-developer-img1{
+    width: 230px;
+    height: 500px;
+    position: absolute;
+    left: 15%;
+    bottom: 15%;
+}
+#app-developer-img2{
+    width: 230px;
+    height: 500px;
+    position: absolute;
+    left: 33%;
+    top: 21%;
+}
+#app-developer-img3{
+    width: 230px;
+    height: 500px;
+    position: absolute;
+    left: 51%;
+    top: 2%;
+}
+#app-developer-img4{
+    width: 230px;
+    height: 500px;
+    position: absolute;
+    left: 51%;
+    bottom: 4%;
+
+}
+#app-developer-img5{
+    width: 230px;
+    height: 500px;
+    position: absolute;
+    right: 15%;
+    top: 31%;
+}
+#Serving-all-bussiness-container{
+    width: 96%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 3rem;
+    background-color: white;
+    flex-wrap: wrap;
+}
+#Serving-all-bussiness-left h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+#Serving-all-bussiness-right{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 14rem;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    text-align: center;
+}
+#Serving-all-bussiness-right aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 0.6rem;
+    text-align: center;
+}
+#Serving-all-bussiness-right img{
+    width: 60px;
+}
+#Serving-all-bussiness-right p{
+    font-size: 1.1rem;
+    color: rgb(50,78,113);
+    font-weight: 600;
+}
+#native-app-container{
+    width: 96%;
+    height: 620px;
+    background-color: rgba(237,20,66,1) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+#native-app-container h1{
+    font-size: 5.4rem;
+    font-weight: 700;
+
+}
+#native-app-container-ion-icon{
+    font-size: 3rem;
+    width: 6rem;
+    position: absolute;
+    top: 24%;
+    left: 11%;
+
+}
+#Android-ios-container{
+    width: 96%;
+    height: 650px;
+    background-color: rgb(16,29,44);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+#Android-ios-center
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   column-gap: 3rem;
+}
+#Android-ios-container h1
+{
+ color: white;
+ font-weight: 600;
+ font-size: 3.4rem;
+ padding-top: 2rem;
+}
+#Android-ios-aside{
+    width: 380px;
+    height: 300px;
+    background-color: white;
+    border-radius: 24px;
+    border-top-left-radius: 24px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+}
+#Android-ios-bottom
+{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   row-gap: 0.7rem;
+}
+#Android-ios-aside-img{
+    width: 90px;
+
+}
+#Android-ios-aside-img2{
+    width: 120px;
+}
+#Android-ios-aside h3{
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+#Android-ios-aside p{
+    font-weight: 500;
+}
+#Delivering-container{
+    width: 96%;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    row-gap: 2rem;
+}
+#Delivering-aside{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(255,102,102);
+    position: relative;
+    overflow: hidden;
+}
+#Delivering-container-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+#Delivering-aside img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: -3%;
+    top: 2%;
+    overflow: hidden;
+}
+#Delivering-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: rgba(0, 43, 116, 0.913);
+}
+#Delivering-div h4{
+  font-weight: 600;
+}
+#Delivering-container-bottom p{
+    color: rgba(0, 43, 116, 0.913);
+font-size: 1.9rem;
+text-align: center;
+flex-wrap: wrap;
+font-family: Montserrat;
+}
+#Delivering-container-bottom span{
+    font-weight: 700;
+    color: rgb(0,43,116);
+}
+#Delivering-container section h1{
+    font-size: 3.3rem;
+}
+#provide-mobille-container{
+    width: 96%;
+    height: 710px;
+    background-color: rgb(16,29,44);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 3rem;
+    text-align: start;
+}
+#provide-mobille-section1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    text-align: start;
+}
+#provide-mobille-section1 h1{
+    font-size: 5.4rem;
+    font-weight: 700;
+}
+#provide-mobille-section2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    column-gap: 7.5rem;
+}
+#provide-mobille-aside2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    text-align: start;
+    flex-direction: column;
+    row-gap: 0.7rem;
+
+}
+#provide-mobille-aside1{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap; 
+     justify-content: center;
+    text-align: start;
+
+}
+#provide-mobille-span{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.7rem;
+    font-weight: 500;
+}
+#why-choose-container{
+    width: 96%;
+    height: 950px;
+    background-color: rgb(245,249,255);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 3rem;
+    background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+background-position: right -98% ;
+background-repeat: no-repeat;
+}
+#why-choose-section1 h1{
+    font-size: 3.4rem;
+    text-align: center;
+    font-weight: 600;
+}
+#why-choose-section1 p{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 400;
+}
+#why-choose-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+#why-choose-aside1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 3rem;
+}
+#why-choose-aside2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+#why-choose-div{
+    width: 390px;
+    height: 260px;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 255, 0.103);
+    border-radius: 23px;
+     display: flex; 
+    flex-direction: column; 
+    flex-wrap: wrap;
+    row-gap: 1rem; 
+    justify-content: center;
+    align-items: center;
+
+}
+#our-clients-container{
+    width: 96%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     background-color: rgba(237,20,66,1) ;
+     color: white;
+    column-gap: 9rem;
+}
+#our-clients-section1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 1rem;
+    text-align: start;
+}
+#our-clients-section1 h1{
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+#our-clients-section1 p{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+#our-clients-section2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#our-clients-section2-img{
+    width: 180px;
+}
+#our-clients-section2-img2{
+    width: 80px;
+}
+#our-clients-section2-img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+#our-clients-section2-img2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#footer{
+    width: 96%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    background-color: rgb(16,29,44);
+    animation: vinay 1s linear;
+    overflow: hidden;
+}
+    @keyframes vinay {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(5deg); transition: linear; }
+        50% { transform: rotate(0eg); }
+        75% { transform: rotate(-5deg); }
+        100% { transform: rotate(0deg); }
+}
+#footer h1{
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: white;
+}
+#footer p{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* response for laptop 1440px */
+@media only screen and (max-width:1440px) and (min-width:989px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    #body{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+        position: relative;
+    }
+    #whatsapp-chat-widget{
+       width: 50px;
+       height: 50px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        position: fixed;
+        bottom: 4%;
+        right: 4%;
+        z-index: 2;
+        background-color: rgb(0,231,133);
+        border-radius: 50%;
+        outline: white;
+        font-size: 2rem;
+    }
+    
+    #header-container{
+        width: 100%;
+        height: 6.9rem;
+        column-gap: 39rem;
+    }
+    #We-Build-Apps{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(16,29,44);
+        flex-wrap: wrap;
+    }
+    #We-Build-Apps-left{
+        width: 50%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: white;
+        text-align: start;
+        padding-left: 8rem;
+        row-gap: 1rem;
+    }
+    #We-Build-Apps-right{
+        width: 50%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #figure-container{
+         width: 80%;
+        height: 600px;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        position: relative;
+        rotate: 32deg;
+    }
+    #figure1{
+        position: absolute;
+        top: 20%;
+        left: 2%;
+    }
+    #figure2{
+        position: absolute;
+        top: -4%;
+        right: 34%;
+    }
+    #figure3{
+        position: absolute;
+        bottom: -9%;
+        left: 37%;
+    }
+    #figure4{
+        position: absolute;
+        bottom: 25%;
+        right: -1%;
+    }
+    #get-a-quote-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(15,165,74);
+        border: 2px solid white;
+    }
+    #get-a-quote-container:hover{
+        color: black;
+        background-color: white;
+    }
+    #percentage-container{
+        width: 100%;
+        height: 270px;
+        background-image: linear-gradient(90deg,rgba(237,20,66,1) 0,rgba(140,30,219,1) 100%) !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 12rem;
+        align-items: center;
+        color: white;
+        text-align: center;
+       
+    }
+    #percentage-section h1{
+        font-size: 3.3rem;
+       font-weight: 700;
+    }
+    #percentage-section h3{
+        font-size: 1.4rem;
+    }
+    #Featured-container{
+        width: 100%;
+        height: 320px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 3rem;
+        background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+        z-index: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       
+    }
+    #Featured-container h2{
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+    #Featured-container img{
+        width: 700px;
+    }
+    #app-developer-container{
+        width: 100%;
+        height: 1600px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    #app-developer-section1 {
+        color: white;
+        text-align: center;
+        font-family: "SF-Pro-Display-Regular";
+             font-family: 'Gordita Medium';
+            font-weight: 600;
+            flex-wrap: wrap;
+            font-size: 1.4rem;
+            padding-top: 3rem;
+            line-height: 2.5rem;
+    }
+    #app-developer-section1 span {
+        text-decoration: none;
+        color: red;
+       background-color: none;
+    }
+    #app-developer-img-container{
+      width: 100%;
+      height: 1100px;
+      position: relative;
+      flex-wrap: wrap;
+    }
+    #app-developer-img1{
+        width: 230px;
+        height: 500px;
+        position: absolute;
+        left: 15%;
+        bottom: 15%;
+    }
+    #app-developer-img2{
+        width: 230px;
+        height: 500px;
+        position: absolute;
+        left: 33%;
+        top: 21%;
+    }
+    #app-developer-img3{
+        width: 230px;
+        height: 500px;
+        position: absolute;
+        left: 51%;
+        top: 2%;
+    }
+    #app-developer-img4{
+        width: 230px;
+        height: 500px;
+        position: absolute;
+        left: 51%;
+        bottom: 4%;
+    
+    }
+    #app-developer-img5{
+        width: 230px;
+        height: 500px;
+        position: absolute;
+        right: 15%;
+        top: 31%;
+    }
+    #Serving-all-bussiness-container{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 3rem;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    #Serving-all-bussiness-left h1{
+        font-size: 3.2rem;
+        font-weight: 600;
+    }
+    #Serving-all-bussiness-right{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        column-gap: 14rem;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right aside{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 0.6rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right img{
+        width: 60px;
+    }
+    #Serving-all-bussiness-right p{
+        font-size: 1.1rem;
+        color: rgb(50,78,113);
+        font-weight: 600;
+    }
+    #native-app-container{
+        width: 100%;
+        height: 620px;
+        background-color: rgba(237,20,66,1) ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        position: relative;
+    }
+    #native-app-container h1{
+        font-size: 5.4rem;
+        font-weight: 700;
+    
+    }
+    #native-app-container-ion-icon{
+        font-size: 3rem;
+        width: 6rem;
+        position: absolute;
+        top: 24%;
+        left: 11%;
+    
+    }
+    #Android-ios-container{
+        width: 100%;
+        height: 650px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    #Android-ios-center
+    {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       column-gap: 3rem;
+    }
+    #Android-ios-container h1
+    {
+     color: white;
+     font-weight: 600;
+     font-size: 3.4rem;
+     padding-top: 2rem;
+    }
+    #Android-ios-aside{
+        width: 380px;
+        height: 300px;
+        background-color: white;
+        border-radius: 24px;
+        border-top-left-radius: 24px;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: start;
+        flex-direction: column;
+    }
+    #Android-ios-bottom
+    {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       row-gap: 0.7rem;
+    }
+    #Android-ios-aside-img{
+        width: 90px;
+    
+    }
+    #Android-ios-aside-img2{
+        width: 120px;
+    }
+    #Android-ios-aside h3{
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+    #Android-ios-aside p{
+        font-weight: 500;
+    }
+    #Delivering-container{
+        width: 100%;
+        height: 850px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        row-gap: 2rem;
+    }
+    #Delivering-aside{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgb(255,102,102);
+        position: relative;
+        overflow: hidden;
+    }
+    #Delivering-container-center{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    #Delivering-aside img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: absolute;
+        left: -3%;
+        top: 2%;
+        overflow: hidden;
+    }
+    #Delivering-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: rgba(0, 43, 116, 0.913);
+    }
+    #Delivering-div h4{
+      font-weight: 600;
+    }
+    #Delivering-container-bottom p{
+        color: rgba(0, 43, 116, 0.913);
+    font-size: 1.9rem;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    }
+    #Delivering-container-bottom span{
+        font-weight: 700;
+        color: rgb(0,43,116);
+    }
+    #Delivering-container section h1{
+        font-size: 3.3rem;
+    }
+    #provide-mobille-container{
+        width: 100%;
+        height: 710px;
+        background-color: rgb(16,29,44);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 3rem;
+        text-align: start;
+    }
+    #provide-mobille-section1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+    }
+    #provide-mobille-section1 h1{
+        font-size: 5.4rem;
+        font-weight: 700;
+    }
+    #provide-mobille-section2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        column-gap: 7.5rem;
+    }
+    #provide-mobille-aside2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+        flex-direction: column;
+        row-gap: 0.7rem;
+    
+    }
+    #provide-mobille-aside1{
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap; 
+         justify-content: center;
+        text-align: start;
+    
+    }
+    #provide-mobille-span{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.7rem;
+        font-weight: 500;
+    }
+    #why-choose-container{
+        width: 100%;
+        height: 950px;
+        background-color: rgb(245,249,255);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 3rem;
+        background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+    background-position: right -98% ;
+    background-repeat: no-repeat;
+    }
+    #why-choose-section1 h1{
+        font-size: 3.4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    #why-choose-section1 p{
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: 400;
+    }
+    #why-choose-section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+    #why-choose-aside1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 3rem;
+    }
+    #why-choose-aside2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 3rem;
+    }
+    #why-choose-div{
+        width: 390px;
+        height: 260px;
+        background-color: white;
+        border: 2px solid rgba(0, 0, 255, 0.103);
+        border-radius: 23px;
+         display: flex; 
+        flex-direction: column; 
+        flex-wrap: wrap;
+        row-gap: 1rem; 
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #our-clients-container{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         background-color: rgba(237,20,66,1) ;
+         color: white;
+        column-gap: 9rem;
+    }
+    #our-clients-section1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 1rem;
+        text-align: start;
+    }
+    #our-clients-section1 h1{
+        font-size: 3.4rem;
+        font-weight: 700;
+    }
+    #our-clients-section1 p{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    #our-clients-section2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #our-clients-section2-img{
+        width: 180px;
+    }
+    #our-clients-section2-img2{
+        width: 80px;
+    }
+    #our-clients-section2-img:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    #our-clients-section2-img2:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    
+    #footer{
+        width: 100%;
+        height: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        background-color: rgb(16,29,44);
+        animation: vinay 1s linear;
+        overflow: hidden;
+    }
+        @keyframes vinay {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(5deg); transition: linear; }
+            50% { transform: rotate(0eg); }
+            75% { transform: rotate(-5deg); }
+            100% { transform: rotate(0deg); }
+    }
+    #footer h1{
+        font-size: 3.4rem;
+        font-weight: 700;
+        color: white;
+    }
+    #footer p{
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+/* response for laptop 1180 */
+@media only screen and (max-width:1180px) and (min-width:652px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    #body{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+    }
+    #whatsapp-chat-widget{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         position: fixed;
+         bottom: 2%;
+         right: 3%;
+         z-index: 2;
+         background-color: rgb(0,231,133);
+         border-radius: 50%;
+         outline: white;
+         font-size: 2rem;
+     }
+    #header-container{
+        width: 100%;
+        height: 4.5rem;
+        column-gap: 29rem;
+    }
+    #We-Build-Apps{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(16,29,44);
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+    #We-Build-Apps-left{
+        width: 50%;
+        height: 360px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: white;
+        text-align: start;
+        row-gap: 1rem;
+        padding-left: 1.3rem;
+    }
+    #We-Build-Apps-right{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #figure-container{
+         width: 100%;
+        height: 100vh;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        rotate: 0deg;
+    }
+    #figure-img{
+        width: 150px;
+        height: 290px;
+    }
+    #figure1{
+        position: absolute;
+        top: 2%;
+        left: 15%;
+        width: 120px;
+
+    }
+    #figure2{
+        position: absolute;
+        top: 2%;
+        right: 15%;
+    }
+    #figure3{
+        position: absolute;
+        bottom: 3%;
+        left: 15%;
+    }
+    #figure4{
+        position: absolute;
+        bottom: 3%;
+        right: 15%;
+
+    }
+    #number{
+        font-size: 0.9rem !important;
+    }
+    #get-a-quote-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(15,165,74);
+        border: 2px solid white;
+    }
+    #get-a-quote-container:hover{
+        color: black;
+        background-color: white;
+    }
+    #percentage-container{
+        width: 100%;
+        height: 280px;
+        background-image: linear-gradient(90deg,rgba(237,20,66,1) 0,rgba(140,30,219,1) 100%) !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 7rem;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+    #percentage-section h1{
+        font-size: 3.3rem;
+       font-weight: 700;
+    }
+    #percentage-section h3{
+        font-size: 1.4rem;
+    }
+    #Featured-container{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 3rem;
+        background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+        background-position: -2324%;
+    }
+    #Featured-container h2{
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+    #Featured-container img{
+        width: 700px;
+    }
+    #app-developer-container{
+        width: 100%;
+        height: 1400px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #app-developer-section1 {
+        color: white;
+        text-align: center;
+        font-family: "SF-Pro-Display-Regular";
+             font-family: 'Gordita Medium';
+            font-weight: 600;
+            flex-wrap: wrap;
+            font-size: 1.4rem;
+            padding-top: 3rem;
+            line-height: 2.5rem;
+    }
+    #app-developer-section1 span {
+        text-decoration: none;
+        color: red;
+       background-color: none;
+    }
+    #app-developer-img-container{
+      width: 100%;
+      height: 900px;
+      position: relative;
+      flex-wrap: wrap;
+    }
+    #app-developer-img1{
+        width: 180px;
+        height: 370px;
+        position: absolute;
+        left: 7%;
+        bottom: 19%;
+    }
+    #app-developer-img2{
+        width: 180px;
+        height: 370px;
+        position: absolute;
+        left: 30%;
+        top: 21%;
+    }
+    #app-developer-img3{
+        width: 180px;
+        height: 370px;
+        position: absolute;
+        left: 52%;
+        top: 2%;
+    }
+    #app-developer-img4{
+        width: 180px;
+        height: 370px;
+        position: absolute;
+        left: 52%;
+        bottom: 11%;
+    
+    }
+    #app-developer-img5{
+        width: 180px;
+        height: 370px;
+        position: absolute;
+        right: 7%;
+        top: 31%;
+    }
+    #Serving-all-bussiness-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 2rem;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    #Serving-all-bussiness-left h1{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    #Serving-all-bussiness-right{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        column-gap: 7rem;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right aside{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 0.6rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right img{
+        width: 60px;
+    }
+    #Serving-all-bussiness-right p{
+        font-size: 1.1rem;
+        color: rgb(50,78,113);
+        font-weight: 600;
+    }
+    #native-app-container{
+        width: 100%;
+        height: 720px;
+        background-color: rgba(237,20,66,1) ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        position: relative;
+    }
+    #native-app-container h1{
+        font-size: 5.1rem;
+        font-weight: 700;
+    
+    }
+    #native-app-container-ion-icon{
+        font-size: 3.8rem;
+        width: 6rem;
+        position: absolute;
+        top: 17%;
+        left: 2%;
+    
+    }
+    #Android-ios-container{
+        width: 100%;
+        height: 900px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #Android-ios-center
+    {
+       display: flex;
+       /* grid-template-columns: auto auto;
+       grid-template-rows: auto; */
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       column-gap: 3rem;
+       row-gap: 2rem;
+       
+    }
+    #Android-ios-container h1
+    {
+     color: white;
+     font-weight: 600;
+     font-size: 3.4rem;
+     padding-top: 2rem;
+    }
+    #Android-ios-aside{
+        width: 320px;
+        height: 250px;
+        background-color: white;
+        border-radius: 24px;
+        border-top-left-radius: 24px;
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: start;
+        row-gap: 1rem;
+        column-gap: 1rem;
+        flex-direction: column;
+    }
+    #Android-ios-bottom
+    {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       row-gap: 0.7rem;
+       text-align: center;
+    }
+    #Android-ios-aside-img{
+        width: 40px;
+    
+    }
+    #Android-ios-aside-img2{
+        width: 70px;
+    }
+    #Android-ios-aside h3{
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    #Android-ios-aside p{
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+    #Delivering-container{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        row-gap: 2rem;
+    }
+    #Delivering-aside{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgb(255,102,102);
+        position: relative;
+        overflow: hidden;
+    }
+    #Delivering-container-center{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    #Delivering-aside img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: absolute;
+        left: -3%;
+        top: 1%;
+        overflow: hidden;
+    }
+    #Delivering-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: rgba(0, 43, 116, 0.913);
+    }
+    #Delivering-div h4{
+      font-weight: 600;
+    }
+    #Delivering-container-bottom p{
+        color: rgba(0, 43, 116, 0.913);
+    font-size: 1.6rem;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    }
+    #Delivering-container-bottom span{
+        font-weight: 700;
+        color: rgb(0,43,116);
+    }
+    #Delivering-container section h1{
+        font-size: 2.9rem;
+    }
+    #provide-mobille-container{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(16,29,44);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 2rem;
+        text-align: start;
+    }
+    #provide-mobille-section1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+    }
+    #provide-mobille-section1 h1{
+        font-size: 4.7rem;
+        font-weight: 700;
+    }
+    #provide-mobille-section2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        column-gap: 3rem;
+        row-gap: 2rem;
+    }
+    #provide-mobille-aside2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+        flex-direction: column;
+        row-gap: 0.7rem;
+    
+    }
+    #provide-mobille-aside1{
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap; 
+         justify-content: center;
+        text-align: start;
+    
+    }
+    #provide-mobille-span{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.7rem;
+        font-weight: 500;
+    }
+    #why-choose-container{
+        width: 100%;
+        height: 800px;
+        background-color: rgb(245,249,255);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 0.3rem;
+        background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+    background-position: right -1223% ;
+    background-repeat: no-repeat;
+    }
+    #why-choose-section1 h1{
+        font-size: 2.7rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    #why-choose-section1 p{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+    }
+    #why-choose-section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    #why-choose-aside1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 2rem;
+        row-gap: 2rem;
+        flex-direction: row;
+
+    }
+    #why-choose-aside2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2rem;
+    }
+    #why-choose-div{
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        border: 2px solid rgba(0, 0, 255, 0.103);
+        border-radius: 23px;
+         display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+        row-gap: 1rem; 
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+    
+    }
+    #why-choose-div img{
+        width: 60px;
+    }
+    #why-choose-div h3{
+        font-size: 1.1rem;
+    }
+    #why-choose-div p{
+        font-size: 0.8rem;
+    }
+    #our-clients-container{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         background-color: rgba(237,20,66,1) ;
+         color: white;
+        column-gap: 7rem;
+        flex-direction: row;
+    }
+    #our-clients-section1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 1rem;
+        text-align: start;
+    }
+    #our-clients-section1 h1{
+        font-size: 3.8rem;
+        font-weight: 700;
+    }
+    #our-clients-section1 p{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    #our-clients-section2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+    }
+    #our-clients-section2-img{
+        width: 160px;
+    }
+    #our-clients-section2-img2{
+        width: 60px;
+    }
+    #our-clients-section2-img:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    #our-clients-section2-img2:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    
+    #footer{
+        width: 100%;
+        height: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        background-color: rgb(16,29,44);
+        animation: vinay 1s linear;
+        overflow: hidden;
+    }
+    #footer h1{
+        font-size: 3.4rem;
+        font-weight: 700;
+        color: white;
+    }
+    #footer p{
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+}
+
+/* response for laptop 1024px */
+@media only screen and (max-width:1024px) and (min-width:648px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    #body{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+    }
+    #whatsapp-chat-widget{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         position: fixed;
+         bottom: 2%;
+         right: 3%;
+         z-index: 2;
+         background-color: rgb(0,231,133);
+         border-radius: 50%;
+         outline: white;
+         font-size: 2rem;
+     }
+    #header-container{
+        width: 100%;
+        height: 4.5rem;
+        column-gap: 29rem;
+    }
+    #We-Build-Apps{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(16,29,44);
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+    #We-Build-Apps-left{
+        width: 50%;
+        height: 360px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: white;
+        text-align: start;
+        row-gap: 1rem;
+        padding-left: 1.3rem;
+    }
+    #We-Build-Apps-right{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #figure-container{
+         width: 100%;
+        height: 100vh;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        rotate: 0deg;
+    }
+    #figure-img{
+        width: 150px;
+        height: 290px;
+    }
+    #figure1{
+        position: absolute;
+        top: 2%;
+        left: 15%;
+        width: 120px;
+
+    }
+    #figure2{
+        position: absolute;
+        top: 2%;
+        right: 15%;
+    }
+    #figure3{
+        position: absolute;
+        bottom: 3%;
+        left: 15%;
+    }
+    #figure4{
+        position: absolute;
+        bottom: 3%;
+        right: 15%;
+
+    }
+    #number{
+        font-size: 0.9rem !important;
+    }
+    #get-a-quote-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(15,165,74);
+        border: 2px solid white;
+    }
+    #get-a-quote-container:hover{
+        color: black;
+        background-color: white;
+    }
+    #percentage-container{
+        width: 100%;
+        height: 280px;
+        background-image: linear-gradient(90deg,rgba(237,20,66,1) 0,rgba(140,30,219,1) 100%) !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 7rem;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+    #percentage-section h1{
+        font-size: 3.3rem;
+       font-weight: 700;
+    }
+    #percentage-section h3{
+        font-size: 1.4rem;
+    }
+    #Featured-container{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 3rem;
+        background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+        background-position: -2324%;
+    }
+    #Featured-container h2{
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+    #Featured-container img{
+        width: 700px;
+    }
+    #app-developer-container{
+        width: 100%;
+        height: 1400px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #app-developer-section1 {
+        color: white;
+        text-align: center;
+        font-family: "SF-Pro-Display-Regular";
+             font-family: 'Gordita Medium';
+            font-weight: 600;
+            flex-wrap: wrap;
+            font-size: 1.4rem;
+            padding-top: 3rem;
+            line-height: 2.5rem;
+    }
+    #app-developer-section1 span {
+        text-decoration: none;
+        color: red;
+       background-color: none;
+    }
+    #app-developer-img-container{
+      width: 100%;
+      height: 900px;
+      position: relative;
+      flex-wrap: wrap;
+    }
+    #app-developer-img1{
+        width: 180px;
+        height: 370px;
+        position: absolute;
+        left: 7%;
+        bottom: 19%;
+    }
+    #app-developer-img2{
+        width: 180px;
+        height: 370px;
+        position: absolute;
+        left: 30%;
+        top: 21%;
+    }
+    #app-developer-img3{
+        width: 180px;
+        height: 370px;
+        position: absolute;
+        left: 52%;
+        top: 2%;
+    }
+    #app-developer-img4{
+        width: 180px;
+        height: 370px;
+        position: absolute;
+        left: 52%;
+        bottom: 11%;
+    
+    }
+    #app-developer-img5{
+        width: 180px;
+        height: 370px;
+        position: absolute;
+        right: 7%;
+        top: 31%;
+    }
+    #Serving-all-bussiness-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 2rem;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    #Serving-all-bussiness-left h1{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    #Serving-all-bussiness-right{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        column-gap: 7rem;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right aside{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 0.6rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right img{
+        width: 60px;
+    }
+    #Serving-all-bussiness-right p{
+        font-size: 1.1rem;
+        color: rgb(50,78,113);
+        font-weight: 600;
+    }
+    #native-app-container{
+        width: 100%;
+        height: 720px;
+        background-color: rgba(237,20,66,1) ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        position: relative;
+    }
+    #native-app-container h1{
+        font-size: 5.1rem;
+        font-weight: 700;
+    
+    }
+    #native-app-container-ion-icon{
+        font-size: 3.8rem;
+        width: 6rem;
+        position: absolute;
+        top: 17%;
+        left: 2%;
+    
+    }
+    #Android-ios-container{
+        width: 100%;
+        height: 900px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #Android-ios-center
+    {
+       display: flex;
+       /* grid-template-columns: auto auto;
+       grid-template-rows: auto; */
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       column-gap: 3rem;
+       row-gap: 2rem;
+       
+    }
+    #Android-ios-container h1
+    {
+     color: white;
+     font-weight: 600;
+     font-size: 3.4rem;
+     padding-top: 2rem;
+    }
+    #Android-ios-aside{
+        width: 320px;
+        height: 250px;
+        background-color: white;
+        border-radius: 24px;
+        border-top-left-radius: 24px;
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: start;
+        row-gap: 1rem;
+        column-gap: 1rem;
+        flex-direction: column;
+    }
+    #Android-ios-bottom
+    {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       row-gap: 0.7rem;
+       text-align: center;
+    }
+    #Android-ios-aside-img{
+        width: 40px;
+    
+    }
+    #Android-ios-aside-img2{
+        width: 70px;
+    }
+    #Android-ios-aside h3{
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    #Android-ios-aside p{
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+    #Delivering-container{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        row-gap: 2rem;
+    }
+    #Delivering-aside{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgb(255,102,102);
+        position: relative;
+        overflow: hidden;
+    }
+    #Delivering-container-center{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    #Delivering-aside img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: absolute;
+        left: -3%;
+        top: 1%;
+        overflow: hidden;
+    }
+    #Delivering-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: rgba(0, 43, 116, 0.913);
+    }
+    #Delivering-div h4{
+      font-weight: 600;
+    }
+    #Delivering-container-bottom p{
+        color: rgba(0, 43, 116, 0.913);
+    font-size: 1.6rem;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    }
+    #Delivering-container-bottom span{
+        font-weight: 700;
+        color: rgb(0,43,116);
+    }
+    #Delivering-container section h1{
+        font-size: 2.9rem;
+    }
+    #provide-mobille-container{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(16,29,44);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 2rem;
+        text-align: start;
+    }
+    #provide-mobille-section1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+    }
+    #provide-mobille-section1 h1{
+        font-size: 4.7rem;
+        font-weight: 700;
+    }
+    #provide-mobille-section2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        column-gap: 3rem;
+        row-gap: 2rem;
+    }
+    #provide-mobille-aside2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+        flex-direction: column;
+        row-gap: 0.7rem;
+    
+    }
+    #provide-mobille-aside1{
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap; 
+         justify-content: center;
+        text-align: start;
+    
+    }
+    #provide-mobille-span{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.7rem;
+        font-weight: 500;
+    }
+    #why-choose-container{
+        width: 100%;
+        height: 800px;
+        background-color: rgb(245,249,255);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 0.3rem;
+        background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+    background-position: right -1223% ;
+    background-repeat: no-repeat;
+    }
+    #why-choose-section1 h1{
+        font-size: 2.7rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    #why-choose-section1 p{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+    }
+    #why-choose-section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    #why-choose-aside1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 2rem;
+        row-gap: 2rem;
+        flex-direction: row;
+
+    }
+    #why-choose-aside2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2rem;
+    }
+    #why-choose-div{
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        border: 2px solid rgba(0, 0, 255, 0.103);
+        border-radius: 23px;
+         display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+        row-gap: 1rem; 
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+    
+    }
+    #why-choose-div img{
+        width: 60px;
+    }
+    #why-choose-div h3{
+        font-size: 1.1rem;
+    }
+    #why-choose-div p{
+        font-size: 0.8rem;
+    }
+    #our-clients-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+         background-color: rgba(237,20,66,1) ;
+         color: white;
+        column-gap: 7rem;
+        flex-direction: row;
+    }
+    #our-clients-section1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 1rem;
+        text-align: start;
+    }
+    #our-clients-section1 h1{
+        font-size: 3.8rem;
+        font-weight: 700;
+    }
+    #our-clients-section1 p{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    #our-clients-section2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+    }
+    #our-clients-section2-img{
+        width: 160px;
+    }
+    #our-clients-section2-img2{
+        width: 60px;
+    }
+    #our-clients-section2-img:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    #our-clients-section2-img2:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    
+    #footer{
+        width: 100%;
+        height: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        background-color: rgb(16,29,44);
+        animation: vinay 1s linear;
+        overflow: hidden;
+    }
+    #footer h1{
+        font-size: 3.4rem;
+        font-weight: 700;
+        color: white;
+    }
+    #footer p{
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+}
+
+
+
+/* response for tablet version 3768-869 */
+
+@media only screen and (max-width:768px) and (min-width:652px) 
+{
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    #body{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+    }
+    #header-container{
+        width: 100%;
+        height: 4.5rem;
+        column-gap: 10rem;
+    }
+    #We-Build-Apps{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(16,29,44);
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+    #We-Build-Apps-left{
+        width: 50%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: white;
+        text-align: start;
+        row-gap: 1rem;
+        padding-left: 1.3rem;
+    }
+    #We-Build-Apps-right{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #figure-container{
+         width: 100%;
+        height: 100vh;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        rotate: 0deg;
+    }
+    #figure-img{
+        width: 150px;
+        height: 290px;
+    }
+    #figure1{
+        position: absolute;
+        top: 2%;
+        left: 5%;
+        width: 120px;
+
+    }
+    #figure2{
+        position: absolute;
+        top: 2%;
+        right: 5%;
+    }
+    #figure3{
+        position: absolute;
+        bottom: 3%;
+        left: 5%;
+    }
+    #figure4{
+        position: absolute;
+        bottom: 3%;
+        right: 5%;
+
+    }
+    #number{
+        font-size: 0.9rem !important;
+    }
+    #get-a-quote-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(15,165,74);
+        border: 2px solid white;
+    }
+    #get-a-quote-container:hover{
+        color: black;
+        background-color: white;
+    }
+    #percentage-container{
+        width: 100%;
+        height: 290px;
+        background-image: linear-gradient(90deg,rgba(237,20,66,1) 0,rgba(140,30,219,1) 100%) !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 12rem;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+    #percentage-section h1{
+        font-size: 3.3rem;
+       font-weight: 700;
+    }
+    #percentage-section h3{
+        font-size: 1.4rem;
+    }
+    #Featured-container{
+        width: 100%;
+        height: 320px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 3rem;
+        background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+        background-position: -2324%;
+    }
+    #Featured-container h2{
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+    #Featured-container img{
+        width: 700px;
+    }
+    #app-developer-container{
+        width: 100%;
+        height: 1400px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #app-developer-section1 {
+        color: white;
+        text-align: center;
+        font-family: "SF-Pro-Display-Regular";
+             font-family: 'Gordita Medium';
+            font-weight: 600;
+            flex-wrap: wrap;
+            font-size: 1.4rem;
+            padding-top: 3rem;
+            line-height: 2.5rem;
+    }
+    #app-developer-section1 span {
+        text-decoration: none;
+        color: red;
+       background-color: none;
+    }
+    #app-developer-img-container{
+      width: 100%;
+      height: 900px;
+      position: relative;
+      flex-wrap: wrap;
+    }
+    #app-developer-img1{
+        width: 150px;
+        height: 310px;
+        position: absolute;
+        left: 4%;
+        bottom: 19%;
+    }
+    #app-developer-img2{
+        width: 150px;
+        height: 310px;
+        position: absolute;
+        left: 28%;
+        top: 21%;
+    }
+    #app-developer-img3{
+        width: 150px;
+        height: 310px;
+        position: absolute;
+        left: 52%;
+        top: 2%;
+    }
+    #app-developer-img4{
+        width: 150px;
+        height: 310px;
+        position: absolute;
+        left: 52%;
+        bottom: 26%;
+    
+    }
+    #app-developer-img5{
+        width: 150px;
+        height: 310px;
+        position: absolute;
+        right: 4%;
+        top: 31%;
+    }
+    #Serving-all-bussiness-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 2rem;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    #Serving-all-bussiness-left h1{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    #Serving-all-bussiness-right{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        column-gap: 7rem;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right aside{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 0.6rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right img{
+        width: 60px;
+    }
+    #Serving-all-bussiness-right p{
+        font-size: 1.1rem;
+        color: rgb(50,78,113);
+        font-weight: 600;
+    }
+    #native-app-container{
+        width: 100%;
+        height: 720px;
+        background-color: rgba(237,20,66,1) ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        position: relative;
+    }
+    #native-app-container h1{
+        font-size: 5.4rem;
+        font-weight: 700;
+    
+    }
+    #native-app-container-ion-icon{
+        font-size: 3rem;
+        width: 6rem;
+        position: absolute;
+        top: 20%;
+        left: 2%;
+    
+    }
+    #Android-ios-container{
+        width: 100%;
+        height: 900px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #Android-ios-center
+    {
+       display: flex;
+       /* grid-template-columns: auto auto;
+       grid-template-rows: auto; */
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       column-gap: 3rem;
+       row-gap: 2rem;
+       
+    }
+    #Android-ios-container h1
+    {
+     color: white;
+     font-weight: 600;
+     font-size: 3.4rem;
+     padding-top: 2rem;
+    }
+    #Android-ios-aside{
+        width: 320px;
+        height: 250px;
+        background-color: white;
+        border-radius: 24px;
+        border-top-left-radius: 24px;
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: start;
+        row-gap: 1rem;
+        column-gap: 1rem;
+        flex-direction: column;
+    }
+    #Android-ios-bottom
+    {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       row-gap: 0.7rem;
+       text-align: center;
+    }
+    #Android-ios-aside-img{
+        width: 40px;
+    
+    }
+    #Android-ios-aside-img2{
+        width: 70px;
+    }
+    #Android-ios-aside h3{
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    #Android-ios-aside p{
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+    #Delivering-container{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: white;
+        row-gap: 2rem;
+    }
+    #Delivering-aside{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        background-color: rgb(255,102,102);
+        position: relative;
+        overflow: hidden;
+    }
+    #Delivering-container-center{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    #Delivering-aside img{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        position: absolute;
+        left: -3%;
+        top: 1%;
+        overflow: hidden;
+    }
+    #Delivering-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: rgba(0, 43, 116, 0.913);
+    }
+    #Delivering-div h4{
+      font-weight: 600;
+    }
+    #Delivering-container-bottom p{
+        color: rgba(0, 43, 116, 0.913);
+    font-size: 1.4rem;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    }
+    #Delivering-container-bottom span{
+        font-weight: 700;
+        color: rgb(0,43,116);
+    }
+    #Delivering-container section h1{
+        font-size: 2.5rem;
+    }
+    #provide-mobille-container{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(16,29,44);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 2rem;
+        text-align: start;
+    }
+    #provide-mobille-section1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+    }
+    #provide-mobille-section1 h1{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    #provide-mobille-section2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        column-gap: 3rem;
+        row-gap: 2rem;
+    }
+    #provide-mobille-aside2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+        flex-direction: column;
+        row-gap: 0.7rem;
+    
+    }
+    #provide-mobille-aside1{
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap; 
+         justify-content: center;
+        text-align: start;
+    
+    }
+    #provide-mobille-span{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.7rem;
+        font-weight: 500;
+    }
+    #why-choose-container{
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(245,249,255);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 0.3rem;
+        background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+    background-position: right -1223% ;
+    background-repeat: no-repeat;
+    }
+    #why-choose-section1 h1{
+        font-size: 2.7rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    #why-choose-section1 p{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+    }
+    #why-choose-section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    #why-choose-aside1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 2rem;
+        row-gap: 2rem;
+        flex-direction: row;
+
+    }
+    #why-choose-aside2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2rem;
+    }
+    #why-choose-div{
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        border: 2px solid rgba(0, 0, 255, 0.103);
+        border-radius: 23px;
+         display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+        row-gap: 1rem; 
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+    
+    }
+    #why-choose-div img{
+        width: 60px;
+    }
+    #why-choose-div h3{
+        font-size: 1.1rem;
+    }
+    #why-choose-div p{
+        font-size: 0.8rem;
+    }
+    #our-clients-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+         background-color: rgba(237,20,66,1) ;
+         color: white;
+        column-gap: 7rem;
+    }
+    #our-clients-section1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 1rem;
+        text-align: start;
+    }
+    #our-clients-section1 h1{
+        font-size: 3.4rem;
+        font-weight: 700;
+    }
+    #our-clients-section1 p{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    #our-clients-section2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+    }
+    #our-clients-section2-img{
+        width: 160px;
+    }
+    #our-clients-section2-img2{
+        width: 60px;
+    }
+    #our-clients-section2-img:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    #our-clients-section2-img2:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    
+    #footer{
+        width: 100%;
+        height: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        background-color: rgb(16,29,44);
+        animation: vinay 1s linear;
+        overflow: hidden;
+    }
+    #footer h1{
+        font-size: 3.4rem;
+        font-weight: 700;
+        color: white;
+    }
+    #footer p{
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+
+
+
+
+/* response for mobile large */
+
+@media screen  and (max-width:652px) and (min-width:425px){
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    #body{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+    }
+    #header-container{
+        width: 100%;
+        height: 3.5rem;
+        column-gap: 4rem;
+        position: fixed;
+        top: 0%;
+        z-index: 2;
+    }
+    #We-Build-Apps{
+        width: 100%;
+        height: 1100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(16,29,44);
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        flex-direction: row;
+    }
+    #get-a-quote-container{
+        width: 140px !important;
+        height: 30px !important;
+        font-size: 0.9rem !important;
+    }
+    #header-container-img{
+        width: 140px;
+    }
+    #We-Build-Apps-left{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: white;
+        text-align: start;
+        row-gap: 1.1rem;
+        padding-left: 1rem;
+    }
+    #We-Build-Apps-left h1{
+        font-size: 2.7rem !important;
+    }
+    #We-Build-Apps-right{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #figure-container{
+         width: 100%;
+        height: 600px;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        rotate: 0deg;
+    }
+    #figure-img{
+        width: 130px;
+        height: 260px;
+    }
+    #figure1{
+        position: absolute;
+        top: 2%;
+        left: 10%;
+
+    }
+    #figure2{
+        position: absolute;
+        top: 2%;
+        right: 10%;
+    }
+    #figure3{
+        position: absolute;
+        bottom: 3%;
+        left: 10%;
+    }
+    #figure4{
+        position: absolute;
+        bottom: 3%;
+        right: 10%;
+
+    }
+    #get-a-quote-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(15,165,74);
+        border: 2px solid white;
+    }
+    #get-a-quote-container:hover{
+        color: black;
+        background-color: white;
+    }
+    #percentage-container{
+        width: 100%;
+        height: 300px;
+        background-image: linear-gradient(90deg,rgba(237,20,66,1) 0,rgba(140,30,219,1) 100%) !important;
+        display: grid;
+         grid-template-columns: auto auto;
+         grid-template-rows: auto;
+        justify-content: center;
+        column-gap: 8rem;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+    #percentage-section h1{
+        font-size: 2.3rem;
+       font-weight: 700;
+    }
+    #percentage-section h3{
+        font-size: 1rem;
+    }
+    #Featured-container{
+        width: 100%;
+        height: 230px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+        background-image:none ;
+        z-index: 1;
+    }
+    #Featured-container h2{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    #Featured-container img{
+        width: 350px;
+    }
+    #app-developer-container{
+        width: 100%;
+        height: 1100px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #app-developer-section1 {
+        color: white;
+        text-align: center;
+        font-family: "SF-Pro-Display-Regular";
+             font-family: 'Gordita Medium';
+            font-weight: 600;
+            flex-wrap: wrap;
+            font-size: 1.1rem;
+            padding-top: 3rem;
+            line-height: 2rem;
+    }
+    #app-developer-section1 span {
+        text-decoration: none;
+        color: red;
+       background-color: none;
+    }
+    #app-developer-img-container{
+      width: 100%;
+      height: 400px;
+      position: relative;
+      flex-wrap: wrap;
+    }
+    #app-developer-img1{
+        width: 80px;
+        height: 180px;
+        position: absolute;
+        left: 1%;
+        bottom: 23%;
+    }
+    #app-developer-img2{
+        width: 80px;
+        height: 180px;
+        position: absolute;
+        left: 26%;
+        top: 21%;
+    }
+    #app-developer-img3{
+        width: 80px;
+        height: 180px;
+        position: absolute;
+        left: 52%;
+        top: 2%;
+    }
+    #app-developer-img4{
+        width: 80px;
+        height: 180px;
+        position: absolute;
+        left: 52%;
+        bottom: 2%;
+    
+    }
+    #app-developer-img5{
+        width: 80px;
+        height: 180px;
+        position: absolute;
+        right: 1%;
+        top: 31%;
+    }
+    #Serving-all-bussiness-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 2rem;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    #Serving-all-bussiness-left h1{
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+    #Serving-all-bussiness-right{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        column-gap: 3rem;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right aside{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        row-gap: 0.6rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right img{
+        width: 40px;
+    }
+    #Serving-all-bussiness-right p{
+        font-size: 1rem;
+        color: rgb(50,78,113);
+        font-weight: 600;
+    }
+    #native-app-container{
+        width: 100%;
+        height: 410px;
+        background-color: rgba(237,20,66,1) ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        position: relative;
+    }
+    #native-app-container h1{
+        font-size: 3rem;
+        font-weight: 700;
+    
+    }
+    #native-app-container-ion-icon{
+        font-size: 2.3rem;
+        width: 6rem;
+        position: absolute;
+        top: 16%;
+        left: 2%;
+    
+    }
+    #Android-ios-container{
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #Android-ios-center
+    {
+       display: flex;
+       /* grid-template-columns: auto auto;
+       grid-template-rows: auto; */
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       column-gap: 3rem;
+       row-gap: 2rem;
+    }
+    #Android-ios-container h1
+    {
+     color: white;
+     font-weight: 600;
+     font-size: 2.4rem;
+     padding-top: 2rem;
+    }
+    #Android-ios-aside{
+        width: 320px;
+        height: 190px;
+        background-color: white;
+        border-radius: 24px;
+        padding-left: 0.7rem;
+        padding-top: 0.3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+        row-gap: 0.4rem;
+        column-gap: 0.5rem;
+        flex-direction: column;
+    }
+    #Android-ios-bottom
+    {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       row-gap: 0.7rem;
+       text-align: center;
+    }
+    #or-call{
+        font-size: 0.9rem !important;
+    }
+    #number{
+        font-size: 1rem !important;
+    }
+    #Android-ios-aside-img{
+        width: 30px;
+    
+    }
+    #Android-ios-aside-img2{
+        width: 50px;
+    }
+    #Android-ios-aside h3{
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    #Android-ios-aside p{
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+    #Delivering-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: white;
+        row-gap: 1.5rem;
+    }
+    #Delivering-aside{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: rgb(255,102,102);
+        position: relative;
+        overflow: hidden;
+    }
+    #Delivering-container-center{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    #Delivering-aside img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        position: absolute;
+        left: -3%;
+        top: 1%;
+        overflow: hidden;
+    }
+    #Delivering-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: rgba(0, 43, 116, 0.913);
+    }
+    #Delivering-div h4{
+      font-weight: 600;
+    }
+    #Delivering-container-bottom p{
+        color: rgba(0, 43, 116, 0.913);
+    font-size: 1.1rem;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    }
+    #Delivering-container-bottom span{
+        font-weight: 700;
+        color: rgb(0,43,116);
+    }
+    #Delivering-container section h1{
+        font-size: 2.1rem;
+    }
+    #provide-mobille-container{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(16,29,44);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+        text-align: start;
+    }
+    #provide-mobille-section1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+    }
+    #provide-mobille-section1 h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    #provide-mobille-section2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+        row-gap: 1rem;
+    }
+    #provide-mobille-aside2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+        flex-direction: column;
+        row-gap: 0.7rem;
+    
+    }
+    #provide-mobille-aside1{
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap; 
+         justify-content: center;
+        text-align: start;
+        flex-direction: column;
+    
+    }
+    #provide-mobille-span{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.7rem;
+        font-weight: 500;
+    }
+    #why-choose-container{
+        width: 100%;
+        height: 1600px;
+        background-color: rgb(245,249,255);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 0.3rem;
+        background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+    background-position: right -1223% ;
+    background-repeat: no-repeat;
+    }
+    #why-choose-section1 h1{
+        font-size: 2.7rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    #why-choose-section1 p{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+    }
+    #why-choose-section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    #why-choose-aside1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 2rem;
+        row-gap: 2rem;
+        flex-direction: row;
+    }
+    #why-choose-aside2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2rem;
+        flex-direction: row;
+        row-gap: 2rem;
+    }
+    #why-choose-div{
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        border: 2px solid rgba(0, 0, 255, 0.103);
+        border-radius: 23px;
+         display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+        row-gap: 1rem; 
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+    
+    }
+    #why-choose-div img{
+        width: 60px;
+    }
+    #why-choose-div h3{
+        font-size: 1.1rem;
+    }
+    #why-choose-div p{
+        font-size: 0.8rem;
+    }
+    #our-clients-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         background-color: rgba(237,20,66,1) ;
+         color: white;
+        column-gap: 1rem;
+        row-gap: 1rem;
+        flex-direction: row;
+    }
+    #our-clients-section1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 1rem;
+        text-align: start;
+    }
+    #our-clients-section1 h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    #our-clients-section1 p{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    #our-clients-section2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #our-clients-section2-img{
+        width: 90px;
+    }
+    #our-clients-section2-img2{
+        width: 40px;
+    }
+    #our-clients-section2-img:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    #our-clients-section2-img2:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    
+    #footer{
+        width: 100%;
+        height: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        background-color: rgb(16,29,44);
+        animation: vinay 1s linear;
+        overflow: hidden;
+    }
+    #footer h1{
+        font-size: 3.4rem;
+        font-weight: 700;
+        color: white;
+    }
+    #footer p{
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+
+
+/* response3 for mobile small */
+
+@media screen  and (max-width:652px) and (min-width:320px){
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    #body{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+    }
+    #header-container{
+        width: 100%;
+        height: 3.5rem;
+        column-gap: 2rem;
+        position: fixed;
+        top: 0%;
+        z-index: 2;
+    }
+    #We-Build-Apps{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(16,29,44);
+        flex-wrap: wrap;
+        row-gap: 0.1rem;
+        column-gap: 1rem;
+        flex-direction: row;
+    }
+    #get-a-quote-container{
+        width: 110px !important;
+        height: 30px !important;
+        font-size: 0.7rem !important;
+    }
+    #header-container-img{
+        width: 140px;
+    }
+    #We-Build-Apps-left{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: white;
+        text-align: center;
+        row-gap: 0.1rem;
+        padding-left: 1rem;
+        /* padding-top: 1rem; */
+    }
+    #We-Build-Apps-left h1{
+        font-size: 2rem !important;
+    }
+    #We-Build-Apps-right{
+        width: 100%;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #figure-container{
+         width: 100%;
+        height: 430px;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        rotate: 0deg;
+    }
+    #figure-img{
+        width: 98px ;
+        height: 190px;
+    }
+    #figure1{
+        position: absolute;
+        top: 1%;
+        left: 8%;
+
+    }
+    #figure2{
+        position: absolute;
+        top: 1%;
+        right: 8%;
+    }
+    #figure3{
+        position: absolute;
+        bottom: 1%;
+        left: 8%;
+    }
+    #figure4{
+        position: absolute;
+        bottom: 1%;
+        right: 8%;
+
+    }
+    #get-a-quote-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(15,165,74);
+        border: 2px solid white;
+    }
+    #get-a-quote-container:hover{
+        color: black;
+        background-color: white;
+    }
+    #percentage-container{
+        width: 100%;
+        height: 270px;
+        background-image: linear-gradient(90deg,rgba(237,20,66,1) 0,rgba(140,30,219,1) 100%) !important;
+        display: grid;
+         grid-template-columns: auto auto;
+         grid-template-rows: auto;
+        justify-content: center;
+        column-gap: 5rem;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+    #percentage-section h1{
+        font-size: 2rem;
+       font-weight: 700;
+    }
+    #percentage-section h3{
+        font-size: 1rem;
+    }
+    #Featured-container{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+        background-image:none ;
+        z-index: 1;
+    }
+    #Featured-container h2{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    #Featured-container img{
+        width: 270px;
+    }
+    #app-developer-container{
+        width: 100%;
+        height: 800px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #app-developer-section1 {
+        color: white;
+        text-align: center;
+        font-family: "SF-Pro-Display-Regular";
+             font-family: 'Gordita Medium';
+            font-weight: 600;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+            padding-top: 3rem;
+            line-height: 1.4rem;
+    }
+    #app-developer-section1 span {
+        text-decoration: none;
+        color: red;
+       background-color: none;
+    }
+    #app-developer-img-container{
+      width: 100%;
+      height: 400px;
+      position: relative;
+      flex-wrap: wrap;
+    }
+    #app-developer-img1{
+        width: 60px;
+        height: 150px;
+        position: absolute;
+        left: 1%;
+        bottom: 23%;
+    }
+    #app-developer-img2{
+        width: 60px;
+        height: 150px;
+        position: absolute;
+        left: 26%;
+        top: 21%;
+    }
+    #app-developer-img3{
+        width: 60px;
+        height: 150px;
+        position: absolute;
+        left: 52%;
+        top: 5%;
+    }
+    #app-developer-img4{
+        width: 60px;
+        height: 150px;
+        position: absolute;
+        left: 52%;
+        bottom: 14%;
+    
+    }
+    #app-developer-img5{
+        width: 60px;
+        height: 150px;
+        position: absolute;
+        right: 1%;
+        top: 31%;
+    }
+    #Serving-all-bussiness-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 2rem;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    #Serving-all-bussiness-left h1{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    #Serving-all-bussiness-right{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        column-gap: 3rem;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right aside{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        row-gap: 0.6rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right img{
+        width: 40px;
+    }
+    #Serving-all-bussiness-right p{
+        font-size: 1rem;
+        color: rgb(50,78,113);
+        font-weight: 600;
+    }
+    #native-app-container{
+        width: 100%;
+        height: 300px;
+        background-color: rgba(237,20,66,1) ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        position: relative;
+    }
+    #native-app-container h1{
+        font-size: 2rem;
+        font-weight: 700;
+    
+    }
+    #native-app-container-ion-icon{
+        font-size: 2rem;
+        width: 6rem;
+        position: absolute;
+        top: 16%;
+        left: 2%;
+    
+    }
+    #Android-ios-container{
+        width: 100%;
+        height: 900px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #Android-ios-center
+    {
+       display: flex;
+       /* grid-template-columns: auto auto;
+       grid-template-rows: auto; */
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       column-gap: 3rem;
+       row-gap: 2rem;
+    }
+    #Android-ios-container h1
+    {
+     color: white;
+     font-weight: 600;
+     font-size: 2rem;
+     padding-top: 2rem;
+    }
+    #Android-ios-aside{
+        width: 280px;
+        height: 170px;
+        background-color: white;
+        border-radius: 24px;
+        padding-left: 0.7rem;
+        padding-top: 0.3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+        row-gap: 0.4rem;
+        column-gap: 0.5rem;
+        flex-direction: column;
+    }
+    #Android-ios-bottom
+    {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       row-gap: 0.7rem;
+       text-align: center;
+    }
+    #or-call{
+        font-size: 0.9rem !important;
+    }
+    #number{
+        font-size: 1rem !important;
+    }
+    #Android-ios-aside-img{
+        width: 30px;
+    
+    }
+    #Android-ios-aside-img2{
+        width: 40px;
+    }
+    #Android-ios-aside h3{
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    #Android-ios-aside p{
+        font-weight: 500;
+        font-size: 0.7rem;
+    }
+    #Delivering-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: white;
+        row-gap: 1.5rem;
+    }
+    #Delivering-aside{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: rgb(255,102,102);
+        position: relative;
+        overflow: hidden;
+    }
+    #Delivering-container-center{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    #Delivering-aside img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        left: -3%;
+        top: 1%;
+        overflow: hidden;
+    }
+    #Delivering-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: rgba(0, 43, 116, 0.913);
+    }
+    #Delivering-div h4{
+      font-weight: 600;
+    }
+    #Delivering-container-bottom p{
+        color: rgba(0, 43, 116, 0.913);
+    font-size: 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    }
+    #Delivering-container-bottom span{
+        font-weight: 700;
+        color: rgb(0,43,116);
+    }
+    #Delivering-container section h1{
+        font-size: 1.9rem;
+    }
+    #provide-mobille-container{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(16,29,44);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+        text-align: start;
+    }
+    #provide-mobille-section1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+    }
+    #provide-mobille-section1 h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+       #provide-mobille-section1 h2{
+        font-size: 1.5rem;
+       }
+
+    #provide-mobille-section2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
+    }
+    #provide-mobille-aside2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+        flex-direction: column;
+        row-gap: 0.5rem;
+    
+    }
+    #provide-mobille-aside1{
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap; 
+         justify-content: center;
+        text-align: start;
+        flex-direction: column;
+    
+    }
+    #provide-mobille-span{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.7rem;
+        font-weight: 500;
+    }
+    #why-choose-container{
+        width: 100%;
+        height: 1300px;
+        background-color: rgb(245,249,255);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 0.3rem;
+        background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+    background-position: right -1223% ;
+    background-repeat: no-repeat;
+    }
+    #why-choose-section1 h1{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    #why-choose-section1 p{
+        font-size: 0.8rem;
+        text-align: center;
+        font-weight: 400;
+    }
+    #why-choose-section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    #why-choose-aside1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 1.5rem;
+        row-gap: 1.5rem;
+        flex-direction: row;
+    }
+    #why-choose-aside2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1.5rem;
+        flex-direction: row;
+        row-gap: 1.5rem;
+    }
+    #why-choose-div{
+        width: 270px;
+        height: 180px;
+        background-color: white;
+        border: 2px solid rgba(0, 0, 255, 0.103);
+        border-radius: 23px;
+         display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+        row-gap: 1rem; 
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+    
+    }
+    #why-choose-div img{
+        width: 40px;
+    }
+    #why-choose-div h3{
+        font-size: 0.9rem;
+    }
+    #why-choose-div p{
+        font-size: 0.7rem;
+    }
+    #our-clients-container{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         background-color: rgba(237,20,66,1) ;
+         color: white;
+        column-gap: 0.3rem;
+        row-gap: 0.3rem;
+        flex-direction: row;
+        text-align: center;
+    }
+    #our-clients-section1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 0.5rem;
+        text-align: center;
+    }
+    #our-clients-section1 h1{
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    #our-clients-section1 p{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    #our-clients-section2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #our-clients-section2-img{
+        width: 70px;
+    }
+    #our-clients-section2-img2{
+        width: 30px;
+    }
+    #our-clients-section2-img:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    #our-clients-section2-img2:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    
+    #footer{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        background-color: rgb(16,29,44);
+        animation: vinay 1s linear;
+        overflow: hidden;
+    }
+    #footer h1{
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+    }
+    #footer p{
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+
+/* response3 for mobile medium */
+
+@media screen  and (max-width:652px) and (min-width:375px){
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    #body{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+    }
+    #header-container{
+        width: 100%;
+        height: 3.5rem;
+        column-gap: 4rem;
+        position: fixed;
+        top: 0%;
+        z-index: 2;
+    }
+    #We-Build-Apps{
+        width: 100%;
+        height: 1250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(16,29,44);
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        flex-direction: row;
+    }
+    #get-a-quote-container{
+        width: 140px !important;
+        height: 30px !important;
+        font-size: 0.9rem !important;
+    }
+    #header-container-img{
+        width: 140px;
+    }
+    #We-Build-Apps-left{
+        width: 100%;
+        height: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: white;
+        text-align: start;
+        row-gap: 1.1rem;
+        padding-left: 1rem;
+    }
+    #We-Build-Apps-left h1{
+        font-size: 2.7rem !important;
+    }
+    #We-Build-Apps-right{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #figure-container{
+         width: 100%;
+        height: 600px;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        rotate: 0deg;
+    }
+    #figure-img{
+        width: 130px ;
+        height: 250px;
+    }
+    #figure1{
+        position: absolute;
+        top: 2%;
+        left: 10%;
+
+    }
+    #figure2{
+        position: absolute;
+        top: 2%;
+        right: 10%;
+    }
+    #figure3{
+        position: absolute;
+        bottom: 3%;
+        left: 10%;
+    }
+    #figure4{
+        position: absolute;
+        bottom: 3%;
+        right: 10%;
+
+    }
+    #get-a-quote-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(15,165,74);
+        border: 2px solid white;
+    }
+    #get-a-quote-container:hover{
+        color: black;
+        background-color: white;
+    }
+    #percentage-container{
+        width: 100%;
+        height: 300px;
+        background-image: linear-gradient(90deg,rgba(237,20,66,1) 0,rgba(140,30,219,1) 100%) !important;
+        display: grid;
+         grid-template-columns: auto auto;
+         grid-template-rows: auto;
+        justify-content: center;
+        column-gap: 8rem;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+    #percentage-section h1{
+        font-size: 2.3rem;
+       font-weight: 700;
+    }
+    #percentage-section h3{
+        font-size: 1rem;
+    }
+    #Featured-container{
+        width: 100%;
+        height: 230px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+        background-image:none ;
+        z-index: 1;
+    }
+    #Featured-container h2{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    #Featured-container img{
+        width: 350px;
+    }
+    #app-developer-container{
+        width: 100%;
+        height: 1100px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #app-developer-section1 {
+        color: white;
+        text-align: center;
+        font-family: "SF-Pro-Display-Regular";
+             font-family: 'Gordita Medium';
+            font-weight: 600;
+            flex-wrap: wrap;
+            font-size: 1.1rem;
+            padding-top: 3rem;
+            line-height: 2rem;
+    }
+    #app-developer-section1 span {
+        text-decoration: none;
+        color: red;
+       background-color: none;
+    }
+    #app-developer-img-container{
+      width: 100%;
+      height: 400px;
+      position: relative;
+      flex-wrap: wrap;
+    }
+    #app-developer-img1{
+        width: 80px;
+        height: 180px;
+        position: absolute;
+        left: 1%;
+        bottom: 23%;
+    }
+    #app-developer-img2{
+        width: 80px;
+        height: 180px;
+        position: absolute;
+        left: 26%;
+        top: 21%;
+    }
+    #app-developer-img3{
+        width: 80px;
+        height: 180px;
+        position: absolute;
+        left: 52%;
+        top: 2%;
+    }
+    #app-developer-img4{
+        width: 80px;
+        height: 180px;
+        position: absolute;
+        left: 52%;
+        bottom: 2%;
+    
+    }
+    #app-developer-img5{
+        width: 80px;
+        height: 180px;
+        position: absolute;
+        right: 1%;
+        top: 31%;
+    }
+    #Serving-all-bussiness-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 2rem;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    #Serving-all-bussiness-left h1{
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+    #Serving-all-bussiness-right{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        column-gap: 3rem;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right aside{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        row-gap: 0.6rem;
+        text-align: center;
+    }
+    #Serving-all-bussiness-right img{
+        width: 40px;
+    }
+    #Serving-all-bussiness-right p{
+        font-size: 1rem;
+        color: rgb(50,78,113);
+        font-weight: 600;
+    }
+    #native-app-container{
+        width: 100%;
+        height: 410px;
+        background-color: rgba(237,20,66,1) ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        position: relative;
+    }
+    #native-app-container h1{
+        font-size: 3rem;
+        font-weight: 700;
+    
+    }
+    #native-app-container-ion-icon{
+        font-size: 2.3rem;
+        width: 6rem;
+        position: absolute;
+        top: 16%;
+        left: 2%;
+    
+    }
+    #Android-ios-container{
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(16,29,44);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #Android-ios-center
+    {
+       display: flex;
+       /* grid-template-columns: auto auto;
+       grid-template-rows: auto; */
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       column-gap: 3rem;
+       row-gap: 2rem;
+    }
+    #Android-ios-container h1
+    {
+     color: white;
+     font-weight: 600;
+     font-size: 2.4rem;
+     padding-top: 2rem;
+    }
+    #Android-ios-aside{
+        width: 320px;
+        height: 190px;
+        background-color: white;
+        border-radius: 24px;
+        padding-left: 0.7rem;
+        padding-top: 0.3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+        row-gap: 0.4rem;
+        column-gap: 0.5rem;
+        flex-direction: column;
+    }
+    #Android-ios-bottom
+    {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       row-gap: 0.7rem;
+       text-align: center;
+    }
+    #or-call{
+        font-size: 0.9rem !important;
+    }
+    #number{
+        font-size: 1rem !important;
+    }
+    #Android-ios-aside-img{
+        width: 30px;
+    
+    }
+    #Android-ios-aside-img2{
+        width: 50px;
+    }
+    #Android-ios-aside h3{
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    #Android-ios-aside p{
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+    #Delivering-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: white;
+        row-gap: 1.5rem;
+    }
+    #Delivering-aside{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: rgb(255,102,102);
+        position: relative;
+        overflow: hidden;
+    }
+    #Delivering-container-center{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    #Delivering-aside img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        position: absolute;
+        left: -3%;
+        top: 1%;
+        overflow: hidden;
+    }
+    #Delivering-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: rgba(0, 43, 116, 0.913);
+    }
+    #Delivering-div h4{
+      font-weight: 600;
+    }
+    #Delivering-container-bottom p{
+        color: rgba(0, 43, 116, 0.913);
+    font-size: 1.1rem;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    }
+    #Delivering-container-bottom span{
+        font-weight: 700;
+        color: rgb(0,43,116);
+    }
+    #Delivering-container section h1{
+        font-size: 2.1rem;
+    }
+    #provide-mobille-container{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(16,29,44);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+        text-align: start;
+    }
+    #provide-mobille-section1{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+    }
+    #provide-mobille-section1 h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    #provide-mobille-section2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+        row-gap: 1rem;
+    }
+    #provide-mobille-aside2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+        text-align: start;
+        flex-direction: column;
+        row-gap: 0.7rem;
+    
+    }
+    #provide-mobille-aside1{
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap; 
+         justify-content: center;
+        text-align: start;
+        flex-direction: column;
+    
+    }
+    #provide-mobille-span{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.7rem;
+        font-weight: 500;
+    }
+    #why-choose-container{
+        width: 100%;
+        height: 1600px;
+        background-color: rgb(245,249,255);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 0.3rem;
+        background-image:url(https://lirp.cdn-website.com/40507f31/dms3rep/multi/opt/Group+40-2880w.png) ;
+    background-position: right -1223% ;
+    background-repeat: no-repeat;
+    }
+    #why-choose-section1 h1{
+        font-size: 2.7rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    #why-choose-section1 p{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+    }
+    #why-choose-section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    #why-choose-aside1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 2rem;
+        row-gap: 2rem;
+        flex-direction: row;
+    }
+    #why-choose-aside2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2rem;
+        flex-direction: row;
+        row-gap: 2rem;
+    }
+    #why-choose-div{
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        border: 2px solid rgba(0, 0, 255, 0.103);
+        border-radius: 23px;
+         display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+        row-gap: 1rem; 
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+    
+    }
+    #why-choose-div img{
+        width: 60px;
+    }
+    #why-choose-div h3{
+        font-size: 1rem;
+    }
+    #why-choose-div p{
+        font-size: 0.8rem;
+    }
+    #our-clients-container{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         background-color: rgba(237,20,66,1) ;
+         color: white;
+        column-gap: 0.3rem;
+        row-gap: 0.3rem;
+        flex-direction: row;
+        text-align: center;
+    }
+    #our-clients-section1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 1rem;
+        text-align: center;
+    }
+    #our-clients-section1 h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    #our-clients-section1 p{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    #our-clients-section2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #our-clients-section2-img{
+        width: 80px;
+    }
+    #our-clients-section2-img2{
+        width: 30px;
+    }
+    #our-clients-section2-img:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    #our-clients-section2-img2:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    
+    #footer{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        background-color: rgb(16,29,44);
+        animation: vinay 1s linear;
+        overflow: hidden;
+    }
+    #footer h1{
+        font-size: 3rem;
+        font-weight: 700;
+        color: white;
+    }
+    #footer p{
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
